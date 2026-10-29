@@ -1,0 +1,6 @@
+-- Ticket: SQL-004
+-- TODO: Customer analysis:
+-- - Customers with no delivered orders (NOT EXISTS).
+-- - Customers with delivered orders (EXISTS).
+-- - Products never ordered (NOT EXISTS).
+-- - Use clear aliases and deterministic sorting.

@@ -1,0 +1,8 @@
+-- Ticket: SQL-002
+-- TODO: Add read-only checks for:
+-- 1. NULL values in important key fields.
+-- 2. Orders with no matching customer.
+-- 3. Order items with no matching order or product.
+-- 4. Invalid quantity, unit_price, or discount values if constraints do not already prevent them.
+-- 5. Duplicate business keys where applicable.
+-- Keep each check labeled and explain what a non-zero result means.

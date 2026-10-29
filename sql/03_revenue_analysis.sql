@@ -1,0 +1,8 @@
+-- Ticket: SQL-003
+-- TODO: Monthly delivered revenue after discounts.
+-- Formula: quantity * unit_price * (1 - discount_pct / 100)
+-- Requirements:
+-- - Filter orders to order_status = 'Delivered'.
+-- - Group by calendar month.
+-- - Use explicit column names and chronological ordering.
+-- - Document the metric definition and grain.

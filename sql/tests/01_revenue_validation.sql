@@ -1,0 +1,7 @@
+-- Ticket: SQL-003
+-- TODO: Add read-only validation checks for monthly delivered revenue.
+-- Suggested checks:
+-- 1. Compare a monthly aggregate with a separately written validation query.
+-- 2. Verify there are no negative quantities or discounts outside the agreed range.
+-- 3. Verify that joining payments does not multiply order-item revenue.
+-- Do not assert expected totals until they have been verified in your database.

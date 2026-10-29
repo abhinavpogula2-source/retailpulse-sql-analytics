@@ -1,0 +1,7 @@
+-- Ticket: SQL-007
+-- TODO: Cohort activity and retention:
+-- - Assign each customer a cohort using signup month.
+-- - Count distinct active customers per activity month.
+-- - Calculate months since signup.
+-- - Calculate cohort size and retention percentage.
+-- - Explicitly document whether activity includes all orders or delivered orders.

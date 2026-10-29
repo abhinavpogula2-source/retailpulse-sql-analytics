@@ -1,0 +1,6 @@
+-- Ticket: SQL-006
+-- TODO: Analyze customer order activity:
+-- - Use LAG() and DATEDIFF() to find gaps between distinct order dates.
+-- - Use ROW_NUMBER() and DATE_SUB() to group consecutive daily activity into islands.
+-- - Return streak start, streak end, and streak length.
+-- - Consider multiple orders on the same day.

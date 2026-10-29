@@ -1,0 +1,7 @@
+-- Ticket: SQL-005
+-- TODO: Build monthly delivered revenue analysis with:
+-- - LAG() for previous-month revenue and change.
+-- - SUM() OVER (...) for cumulative revenue.
+-- - AVG() OVER (... ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) for a 3-row moving average.
+-- - DENSE_RANK() or ROW_NUMBER() for Top-N products per category.
+-- Ensure monthly revenue is aggregated before applying window functions.
